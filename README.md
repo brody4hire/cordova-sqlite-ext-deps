@@ -13,7 +13,7 @@ Contains source and object code built from:
 - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) (Unlicense, public domain)
 
 This project provides the following dependencies needed to build [cordova-sqlite-ext](https://github.com/brodybits/cordova-sqlite-ext):
-- `sqlite3.h`, `sqlite3.c` - SQLite `3.40.0` amalgamation needed to build iOS/macOS and Windows platform versions
+- `sqlite3.h`, `sqlite3.c` - SQLite `3.43.0` amalgamation needed to build iOS/macOS and Windows platform versions
 - [libb64-core](https://github.com/brodybits/libb64-core), [sqlite3-base64](https://github.com/brodybits/sqlite3-base64), and [sqlite3-regexp-cached](https://github.com/brodybits/sqlite3-regexp-cached) source for iOS/macOS/Windows platform versions
 - `libs` - JAR libraries built from [`brodybits/android-sqlite-ndk-native-driver`](https://github.com/brodybits/android-sqlite-ndk-native-driver) and [`brodybits/android-sqlite-native-ndk-connector`](https://github.com/brodybits/android-sqlite-native-ndk-connector), minimum API level 24 (Android 7.0), built with SQLite `3.40.0` amalgamation, with the following flags:
   - `-DSQLITE_THREADSAFE=1`
